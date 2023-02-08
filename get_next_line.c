@@ -6,7 +6,7 @@
 /*   By: gpecci <gpecci@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/07 13:05:13 by gpecci            #+#    #+#             */
-/*   Updated: 2023/02/07 16:53:03 by gpecci           ###   ########.fr       */
+/*   Updated: 2023/02/08 17:05:59 by gpecci           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -43,9 +43,9 @@ static char	*take(char *line)
 	char	*tmp;
 
 	i = 0;
-	while (line[i] != '\n'&& line[i] != '\0')
+	while (line[i] != '\n' && line[i] != '\0')
 		i++;
-	if (line[i] == '\0'|| line[1] == '\0')
+	if (line[i] == '\0' || line[1] == '\0')
 		return (NULL);
 	tmp = ft_substr(line, i + 1, ft_strlen(line) - i);
 	if (*tmp == '\0')

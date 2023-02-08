@@ -6,16 +6,16 @@
 /*   By: gpecci <gpecci@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/08 16:56:24 by gpecci            #+#    #+#             */
-/*   Updated: 2023/02/08 16:56:43 by gpecci           ###   ########.fr       */
+/*   Updated: 2023/02/08 17:15:09 by gpecci           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef GET_NEXT_LINE_BONUS_H
 # define GET_NEXT_LINE_BONUS_H
 
-#ifndef BUFFER_SIZE
-# define BUFFER_SIZE 42
-#endif
+# ifndef BUFFER_SIZE
+#  define BUFFER_SIZE 42
+# endif
 
 # include <sys/types.h>
 # include <sys/uio.h>
